@@ -3,8 +3,14 @@
 void BMI::setHeight(float x){
 	height = x/100.0;	
 }
+float BMI::getHeight(){
+	return height;
+}
 void BMI::setMass(float y){
 	mass = y;
+}
+float BMI::getMass(){
+	return mass;
 }
 float BMI::getBmi(){
 	float bmi;
