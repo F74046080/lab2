@@ -8,4 +8,5 @@ lab2.o:lab2.cpp bmi.h
 	g++ -c lab2.cpp
 
 clean:
-	rm bmi*.o
+	rm bmi.o
+	rm lab2.o
